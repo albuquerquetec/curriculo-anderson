@@ -317,7 +317,20 @@ h2.section-title {
 
 .where { margin: 0.15rem 0 0.7rem; color: var(--muted); }
 
-.job p:last-child { margin-bottom: 0; }
+.job .project {
+  margin: 0.85rem 0 0.35rem;
+  font-weight: 700;
+}
+
+.job ul {
+  margin: 0.2rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.job li + li { margin-top: 0.28rem; }
+
+.job p:last-child,
+.job ul:last-child { margin-bottom: 0; }
 
 .skill-grid { grid-template-columns: repeat(3, 1fr); }
 
