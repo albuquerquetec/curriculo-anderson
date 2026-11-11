@@ -135,6 +135,19 @@ h1 {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.contact {
+  margin-top: 1rem;
+}
+
+.contact p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.contact p + p {
+  margin-top: 0.2rem;
+}
+
 .actions {
   display: flex;
   flex-wrap: wrap;
