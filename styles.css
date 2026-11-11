@@ -213,7 +213,9 @@ h1 {
   font-size: 0.82rem;
 }
 
-section { padding: 4.2rem 0; }
+main > section { padding: 4.2rem 0; }
+
+.role { padding: 0; }
 
 .section-label {
   margin: 0 0 0.45rem;
