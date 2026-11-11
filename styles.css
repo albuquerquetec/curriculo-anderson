@@ -401,15 +401,20 @@ h2.section-title {
   background: #fff;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 1.35rem 1.4rem;
+  padding: 1rem 1.15rem 0.85rem;
 }
 
 .resume h2 {
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.45rem;
   font-size: 1.25rem;
 }
 
-.resume ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+.resume section {
+  padding: 0;
+  margin: 0;
+}
+
+.resume ul { margin: 0.25rem 0 0; padding-left: 1.1rem; }
 
 .resume li + li { margin-top: 0.28rem; }
 
@@ -421,7 +426,7 @@ h2.section-title {
 
 .role h3 { margin: 0; font-size: 1.05rem; }
 
-.meta { margin: 0.15rem 0 0.45rem; color: var(--muted); }
+.meta { margin: 0.1rem 0 0; color: var(--muted); }
 
 @media (max-width: 900px) {
   .hero-grid,
